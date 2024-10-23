@@ -3,12 +3,15 @@ body {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;  /* Needed to don't have any margin (with different color) around the content */
 }
 
 /* 1. Header */
 header {
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
+  margin: 0 25px;
 }
 
 /* 1.1. Header logo */
@@ -27,5 +30,6 @@ header {
   color: white;
   font-size: 24px;
   font-weight: bold;
+  margin: 0 3px;
   text-decoration: none;
 }
