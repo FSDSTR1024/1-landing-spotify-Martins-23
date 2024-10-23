@@ -40,3 +40,20 @@ header {
   position: relative;
   top: -5px
 }
+
+/* 1.2. Header navigation */
+#header_navigation {
+  display: flex;
+}
+
+/* 1.2.1. Header navigation items */
+#header_navigation li {
+  list-style-type: none;
+}
+
+#header_navigation li a {
+  color: white;
+  font-weight: bold;
+  padding: 30px 15px;
+  text-decoration: none;
+}
