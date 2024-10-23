@@ -1,6 +1,5 @@
 /* 0. General */
 body {
-  background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;  /* Needed to don't have any margin (with different color) around the content */
@@ -8,10 +7,10 @@ body {
 
 /* 1. Header */
 header {
+  background-color: black;
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
-  margin: 0 25px;
+  padding: 0 40px;
 }
 
 /* 1.1. Header logo */
@@ -44,6 +43,8 @@ header {
 /* 1.2. Header navigation */
 #header_navigation {
   display: flex;
+  margin: 30px 0;
+  padding: 0;
 }
 
 /* 1.2.1. Header navigation items */
@@ -51,9 +52,17 @@ header {
   list-style-type: none;
 }
 
+#navigation_separator {
+  padding-left: 30px;
+}
+
 #header_navigation li a {
   color: white;
   font-weight: bold;
-  padding: 30px 15px;
+  padding-left: 30px;
   text-decoration: none;
+}
+
+#header_navigation li[class="navigation_gray"] a {
+  color: #d9dadc;
 }
