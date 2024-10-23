@@ -26,7 +26,7 @@ header {
 }
 
 /* 1.1.2. Header logo name */
-#header_logo p {
+#header_logo p a {
   color: white;
   font-size: 24px;
   font-weight: bold;
