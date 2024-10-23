@@ -17,9 +17,15 @@ header {
   display: flex;
 }
 
-/* 1.1.1. Header logo name */
+/* 1.1.1. Header logo image */
+#header_logo img {
+  height: 35px;
+}
+
+/* 1.1.2. Header logo name */
 #header_logo p {
   color: white;
   font-size: 24px;
   font-weight: bold;
+  text-decoration: none;
 }
