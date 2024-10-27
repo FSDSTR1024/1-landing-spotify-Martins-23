@@ -118,8 +118,17 @@ header {
   padding: 15px 30px;
 }
 
+#offer_buttons button:hover {
+  cursor: pointer;
+  scale: 1.04;
+}
+
 #try_free_btn {
   background-color: #FFD2D7;
+}
+
+#try_free_btn:hover {
+  background-color: #FFEBEE;
 }
 
 #see_plans_btn {
