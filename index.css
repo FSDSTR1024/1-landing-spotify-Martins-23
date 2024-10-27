@@ -88,17 +88,20 @@ main div {
   justify-content: center;
 }
 
+/* 2.1.1. Offer header */
 #offer h1 {
   font-size: 45px;
   margin: 0;
   width: 500px;
 }
 
+/* 2.1.2. Offer subheader */
 #offer h2 {
   font-size: 15px;
   font-weight: normal;
 }
 
+/* 2.1.3. Offer buttons */
 #offer_buttons {
   display: flex;
   flex-direction: row;
@@ -123,6 +126,7 @@ main div {
   color: white;
 }
 
+/* 2.1.4. Offer conditions */
 #offer p {
   font-size: 0.7rem;
   width: 390px;
