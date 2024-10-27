@@ -27,25 +27,26 @@ header {
 }
 
 /* 1.1. Header logo */
-#header_logo {
+.logo {
   align-items: center;
   display: flex;
+  padding-right: 50px;
 }
 
 /* 1.1.1. Header logo image */
-#header_logo img {
+.logo img {
   height: 35px;
 }
 
 /* 1.1.2. Header logo name */
-#header_logo p a {
+.logo p a {
   font-size: 24px;
   font-weight: bold;
   margin: 0 3px;
 }
 
 /* 1.1.3. Header logo registered symbol */
-#registered_symbol {
+.registered_symbol {
   font-size: 6px;
   position: relative;
   top: -5px
