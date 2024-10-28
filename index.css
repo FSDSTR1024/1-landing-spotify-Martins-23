@@ -19,6 +19,10 @@ body {
   text-decoration: none;
 }
 
+.green_on_hover:hover {
+  color: #1ed760;
+}
+
 /* 1. Header */
 header {
   background-color: black;
