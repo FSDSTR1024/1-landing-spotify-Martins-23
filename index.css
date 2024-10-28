@@ -147,7 +147,7 @@ header {
 }
 
 /* 2.2. Offer section image */
-main div img {
+#offer_container img {
   height: 170px;
 }
 
