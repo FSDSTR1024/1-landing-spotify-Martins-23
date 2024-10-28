@@ -79,7 +79,7 @@ header {
 /* 2. Offer section */
 #offer_container {
   align-items: center;
-  background-image: linear-gradient(#FFD2D7 0%, black 40%);
+  background-image: linear-gradient(#FFD2D7 0%, #121212 40%);
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
