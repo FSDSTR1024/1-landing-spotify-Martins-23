@@ -208,5 +208,11 @@ footer {
 }
 
 .media_button img {
+  background-color: white;
   height: 25px;
+}
+
+.media_button img:hover {
+  background-color: #1ed760;
+  cursor: pointer;
 }
