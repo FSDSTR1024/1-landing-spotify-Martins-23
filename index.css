@@ -68,12 +68,12 @@ header {
 }
 
 #navigation_separator {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 #header_navigation li a {
   font-weight: bold;
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 /* 2. Offer section */
