@@ -7,6 +7,14 @@ It has been developed with zero previous knowledge in the related technologies a
 1. [GitHub Classroom Assignment](#github-classroom-assignment)
 2. [Original Spotify Landing](#original-spotify-landing)
 3. [Spotify Landing Assignment Project](#spotify-landing-assignment-project)
+4. [Tools](#tools)
+    1. [Color Picker](#color-picker)
+    2. [Image background removal](#image-background-removal)
+5. [Images](#images)
+    1. [Google Images](#google-images)
+        1. [Spotify White Logo](#spotify-white-logo)
+        2. [Spotify Black Logo](#spotify-black-logo)
+        3. [Strange dancing ball](#strange-dancing-ball)
 
 ---
 
@@ -21,3 +29,34 @@ https://www.spotify.com/es/premium/
 ## Spotify Landing Assignment Project
 The automatic repository that has been created to hold this assignment is located in:  
 https://github.com/FSDSTR1024/1-landing-spotify-Martins-23
+
+## Tools
+Some additional tools have been needed to perform this assignment:
+
+### Color Picker
+Tool used to get the HEX color:  
+https://imagecolorpicker.com/
+
+### Image background removal
+Tool used to get rid of the backgrund of an image:  
+https://www.remove.bg/
+
+## Images
+Some pictures were easy to be found in Google, some other required to extract them directly from the original page:
+
+### Google Images
+
+#### Spotify White Logo
+Used for the logo inside the page (header and footer).
+<!-- images\Spotify_Primary_Logo_RGB_White.png -->
+<img alt="Spotify White Logo" height="100" src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png"/>
+
+#### Spotify Black Logo
+Used for the page tab logo.
+<!-- images\Spotify_Primary_Logo_RGB_Black.png -->
+<img alt="Spotify Black Logo" height="100" src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png"/>
+
+#### Strange dancing ball
+Used for first section of the landing (the offer section).
+<!-- images\ab671c3d0000f4304024a1823630b85923e6668c.png -->
+<img alt="Strange dancing ball" height="100" src="https://i.scdn.co/image/ab671c3d0000f4304024a1823630b85923e6668c"/>
