@@ -240,6 +240,66 @@ header {
   height: 30px;
 }
 
+/* 4. All-plans features section */
+#all_plans_features_container {
+  background-color: #121212;
+  padding: 35px 25px;
+  text-align: center;
+}
+
+/* 4.1. All-plans features texts */
+#all_plans_features_container h2 {
+  font-size: 37px;
+  margin: 0;
+}
+
+#all_plans_features_container > h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 15px 0 30px 0;
+}
+
+/* 4.2. All-plans features payment methods */
+#payment_methods {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+#payment_methods img {
+  background-color: white;
+  border-radius: 2px;
+  padding: 4px;
+  width: 45px;
+}
+
+#payment_methods img#PayPal {
+  height: 15px;
+  padding: 13px 4px;
+}
+
+/* 4.3. All-plans features description */
+#all_plans_features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 45px 0;
+}
+
+/* 4.3.1. All-plans features description text */
+#all_plans_features h3 {
+  font-size: 30px;
+}
+
+/* 4.3.2. All-plans features description list */
+#all_plans_features ul {
+  list-style-type: "✓   ";
+  margin-left: 40px;
+  text-align: left;
+  width: 350px;
+}
+
 /* 7. Footer */
 footer {
   align-items: flex-start;
