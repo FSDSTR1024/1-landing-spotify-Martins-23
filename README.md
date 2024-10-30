@@ -17,9 +17,13 @@ It has been developed with zero previous knowledge in the related technologies a
         2. [Spotify Black Logo](#spotify-black-logo)
         3. [Strange dancing ball](#strange-dancing-ball)
     2. [Original landing Images](#original-landing-images)
-        1. [Instagram transparent Logo](#instagram-transparent-logo)
-        2. [X transparent Logo](#x-transparent-logo)
-        3. [Facebook transparent Logo](#facebook-transparent-logo)
+        1. [VISA Logo](#visa-logo)
+        2. [Mastercard Logo](#mastercard-logo)
+        3. [American Express Logo](#american-express-logo)
+        4. [PayPal Logo](#paypal-logo)
+        5. [Instagram transparent Logo](#instagram-transparent-logo)
+        6. [X transparent Logo](#x-transparent-logo)
+        7. [Facebook transparent Logo](#facebook-transparent-logo)
 
 ---
 
@@ -74,6 +78,26 @@ Used for first section of the landing (the offer section).
 
 ### Original landing Images
 These images were extracted from the original Spotify landing page (.svg images), and then have been converted to .png images through the mentioned [SVG to PNG](#svg-to-png-converter) tool.
+
+#### VISA Logo
+Used for the payment section.
+<!-- images\visa_logo.png -->
+<img alt="VISA Logo" height="100" src="https://paymentsdk.spotifycdn.com/svg/cards/visa.svg"/>
+
+#### MasterCard Logo
+Used for the payment section.
+<!-- images\mastercard_logo.png -->
+<img alt="MasterCard Logo" height="100" src="https://paymentsdk.spotifycdn.com/svg/cards/mastercard.svg"/>
+
+#### American Express Logo
+Used for the payment section.
+<!-- images\american_express_logo.png -->
+<img alt="American Express Logo" height="100" src="https://paymentsdk.spotifycdn.com/svg/cards/amex.svg"/>
+
+#### PayPal Logo
+Used for the payment section.
+<!-- images\paypal_logo.png -->
+<img alt="PayPal Logo" height="100" src="https://paymentsdk.spotifycdn.com/svg/providers/paypal.svg"/>
 
 #### Instagram transparent Logo
 Used for the social media logo in the footer.
