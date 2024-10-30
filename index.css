@@ -186,28 +186,33 @@ header {
   text-align: center;
 }
 
+/* 3.2.1. Table column 1 properties */
 #col1 {
   padding: 16px 10px;
   vertical-align: bottom;
   width: 180px;
 }
 
+/* 3.2.2. Table column 2 properties */
 #col2 {
   padding: 30px 5px 30px 20px;
   vertical-align: top;
   width: 95px;
 }
 
+/* 3.2.3. Table column 3 properties */
 #col3 {
   padding: 30px 5px 30px 20px;
   vertical-align: top;
   width: 80px;
 }
 
+/* 3.2.4. Table all-rows properties */
 #plan_comparison_table_container table * tr * {
   border-bottom: 1px solid white;
 }
 
+/* 3.2.5. Table all-headings properties */
 #plan_comparison_table_container table * tr th {
   text-align: left;
 }
@@ -216,6 +221,7 @@ header {
   background-color: #1f1f1f;
 }
 
+/* 3.2.6. Table body-rows properties */
 #plan_comparison_table_container table tbody tr th {
   font-weight: normal;
   padding: 16px 10px;
