@@ -304,10 +304,16 @@ header {
 #premium_plans_container {
   align-items: stretch;
   background-color: #121212;
+  column-gap: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  padding: 0 9rem;
+  padding: 0 9rem 3rem 9rem;
+  row-gap: 40px;
+}
+
+#family_plan {
+  grid-column-start: 2;
 }
 
 /* 5.1. Premium plans boxes */
@@ -317,15 +323,35 @@ header {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
+  justify-content: space-between;
   padding: 0;
   width: 350px;
 }
 
+.premium_plan > div.footer_plan_content {
+  display: flex;
+  flex-direction: column;
+}
+
 /* 5.2. Premium plans texts */
+#individual_plan h2 {
+  color: #ffd2d7;
+}
+
+#student_plan h2 {
+  color: #c4b1d4;
+}
+
+#duo_plan h2 {
+  color: #ffc862;
+}
+
+#family_plan h2 {
+  color: #a5bbd1;
+}
+
 /* 5.2.1. Premium plans general texts */
 .premium_plan h2 {
-  color: #ffd2d7;
   font-size: 30px;
   margin: 0;
   padding-left: 15px;
@@ -333,15 +359,23 @@ header {
 
 .premium_plan h3 {
   font-size: 14px;
-  margin-top: 10px;
+  margin: 10px 0 3px 0;
   padding-left: 15px;
 }
 
 .premium_plan h3 + p {
   color: #a7a7a7;
   font-size: 13px;
-  margin-top: 0;
+  margin: 0 0 40px 0;
   padding-left: 15px;
+}
+
+#duo_plan div h3 + ul {
+  margin-top: 80px;
+}
+
+#family_plan div h3 + ul {
+  margin-top: 30px;
 }
 
 .premium_plan button + p {
@@ -352,13 +386,24 @@ header {
   text-align: center;
 }
 
+#duo_plan .footer_plan_content p {
+  margin-bottom: 60px;
+}
+
 .premium_plan button + p a {
   color: #a7a7a7;
 }
 
 /* 5.2.2. Premium plans top text */
-.plan_top_offer {
+#individual_plan .plan_top_offer {
   background-color: #ffd2d7;
+}
+
+#student_plan .plan_top_offer {
+  background-color: #c4b1d4;
+}
+
+.plan_top_offer {
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
   color: black;
@@ -384,13 +429,32 @@ header {
 }
 
 /* 5.3. Premium plans button */
-.premium_plan button {
+#individual_plan button {
   background-color: #ffd2d7;
+}
+
+#student_plan button {
+  background-color: #c4b1d4;
+}
+
+#duo_plan button {
+  background-color: #ffc862;
+}
+
+#family_plan button {
+  background-color: #a5bbd1;
+}
+
+.premium_plan button {
   border-radius: 30px;
   font-size: 15px;
   font-weight: bold;
   margin: 50px 15px 0 15px;
   padding: 15px;
+}
+
+#family_plan .footer_plan_content button {
+  margin: 0 15px 0 15px;
 }
 
 /* 7. Footer */
