@@ -306,14 +306,18 @@ header {
   background-color: #121212;
   column-gap: 30px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr repeat(3, 350px) 1fr;
   justify-items: center;
-  padding: 0 9rem 3rem 9rem;
+  padding-bottom: 3rem;
   row-gap: 40px;
 }
 
-#family_plan {
+#individual_plan {
   grid-column-start: 2;
+}
+
+#family_plan {
+  grid-column-start: 3;
 }
 
 /* 5.1. Premium plans boxes */
