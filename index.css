@@ -300,6 +300,99 @@ header {
   width: 350px;
 }
 
+/* 5. Premium plans section */
+#premium_plans_container {
+  align-items: stretch;
+  background-color: #121212;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0 9rem;
+}
+
+/* 5.1. Premium plans boxes */
+.premium_plan {
+  background-color: #242424;
+  border: 0.1px solid #242424;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 0;
+  width: 350px;
+}
+
+/* 5.2. Premium plans texts */
+/* 5.2.1. Premium plans general texts */
+.premium_plan h2 {
+  color: #ffd2d7;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.premium_plan h3 {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.premium_plan h3 + p {
+  color: #a7a7a7;
+  font-size: 13px;
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+.premium_plan button + p {
+  color: #a7a7a7;
+  font-size: 12px;
+  padding: 0 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.premium_plan button + p a {
+  color: #a7a7a7;
+}
+
+/* 5.2.2. Premium plans top text */
+.plan_top_offer {
+  background-color: #ffd2d7;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 15px;
+  width: 180px;
+}
+
+/* 5.2.2. Premium plans logo */
+.premium_plan_logo {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.premium_plan_logo img {
+  height: 23px;
+}
+
+/* 5.3. Premium plans button */
+.premium_plan button {
+  background-color: #ffd2d7;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 50px 15px 0 15px;
+  padding: 15px;
+}
+
 /* 7. Footer */
 footer {
   align-items: flex-start;
