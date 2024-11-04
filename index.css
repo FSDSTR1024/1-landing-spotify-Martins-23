@@ -398,6 +398,10 @@ header {
   color: #a7a7a7;
 }
 
+.premium_plan button + p a:hover {
+  font-weight: bold;
+}
+
 /* 5.2.2. Premium plans top text */
 #individual_plan .plan_top_offer {
   background-color: #ffd2d7;
@@ -455,6 +459,11 @@ header {
   font-weight: bold;
   margin: 50px 15px 0 15px;
   padding: 15px;
+}
+
+.premium_plan button:hover {
+  cursor: pointer;
+  scale: 1.03;
 }
 
 #family_plan .footer_plan_content button {
