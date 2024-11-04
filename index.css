@@ -470,6 +470,59 @@ header {
   margin: 0 15px 0 15px;
 }
 
+/* 6. FAQs section */
+#faqs_container {
+  background-color: #121212;
+  padding: 70px 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* 6.1. FAQs header */
+#faqs_container h2 {
+  font-size: 30px;
+}
+
+/* 6.2. FAQs texts */
+#faqs_container p a {
+  color: white;
+}
+
+#faqs_container p a:hover {
+  font-weight: bold;
+}
+
+/* 6.3. FAQs content */
+#faqs_container ul {
+  margin-top: 30px;
+  padding: 0 50px;
+  text-align: left;
+}
+
+#faqs_container ul li {
+  list-style: none;
+}
+
+#faqs_container ul li details summary {
+  border-bottom: 0.5px solid #333333;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 10px;
+}
+
+#faqs_container ul li details summary:hover,
+#faqs_container ul li details[open] > summary {
+  background-color: #2a2a2a;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#faqs_container ul li details p {
+  background-color: #1f1f1f;
+  margin: 0 0 2px 0;
+  padding: 20px 25px;
+}
+
 /* 7. Footer */
 footer {
   align-items: flex-start;
