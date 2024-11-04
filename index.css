@@ -572,6 +572,10 @@ footer {
   padding: 5px 0 18px 0;
 }
 
+.footer_navigation_column li a:hover {
+  color: #1ed760;
+}
+
 /* 7.3. Footer social media area */
 #media_buttons {
   display: flex;
